@@ -2,7 +2,7 @@
 <template encoding-version="1.3">
     <description></description>
     <groupId>0927ddff-017c-1000-3f08-95a84646cb8e</groupId>
-    <name>Project</name>
+    <name>project</name>
     <snippet>
         <controllerServices>
             <id>97a7f8f9-10c6-34d9-0000-000000000000</id>
@@ -1375,7 +1375,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.IdentifyMimeType</type>
                 </processors>
@@ -1461,7 +1461,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -1540,7 +1540,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.ConvertRecord</type>
                 </processors>
@@ -1626,7 +1626,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
                 </processors>
@@ -1712,7 +1712,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -1835,7 +1835,7 @@
                         <autoTerminate>true</autoTerminate>
                         <name>original</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.QueryRecord</type>
                 </processors>
@@ -1909,7 +1909,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.ConvertRecord</type>
                 </processors>
@@ -2027,7 +2027,7 @@
                         <autoTerminate>true</autoTerminate>
                         <name>original</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.QueryRecord</type>
                 </processors>
@@ -2182,7 +2182,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.GetFile</type>
                 </processors>
@@ -2384,7 +2384,7 @@
                         <autoTerminate>true</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
                 </processors>
@@ -2477,7 +2477,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.CompressContent</type>
                 </processors>
@@ -2593,7 +2593,7 @@
                             </entry>
                             <entry>
 <key>Table Name</key>
-<value>test3</value>
+<value>env_ac_ainah_r2</value>
                             </entry>
                             <entry>
 <key>Row Identifier Field Name</key>
@@ -2648,7 +2648,7 @@
                         <autoTerminate>true</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.hbase.PutHBaseRecord</type>
                 </processors>
@@ -2741,7 +2741,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style>
                         <entry>
                             <key>background-color</key>
@@ -2948,7 +2948,7 @@
                         <autoTerminate>true</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
                 </processors>
@@ -3014,7 +3014,7 @@
                         <autoTerminate>false</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.IdentifyMimeType</type>
                 </processors>
@@ -3398,7 +3398,7 @@
                         <autoTerminate>true</autoTerminate>
                         <name>Retry</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
                 </processors>
@@ -3514,7 +3514,7 @@
                             </entry>
                             <entry>
 <key>Table Name</key>
-<value>test3</value>
+<value>nrg_chdd_a</value>
                             </entry>
                             <entry>
 <key>Row Identifier Field Name</key>
@@ -3569,7 +3569,7 @@
                         <autoTerminate>true</autoTerminate>
                         <name>success</name>
                     </relationships>
-                    <state>RUNNING</state>
+                    <state>STOPPED</state>
                     <style/>
                     <type>org.apache.nifi.hbase.PutHBaseRecord</type>
                 </processors>
@@ -3583,5 +3583,5 @@
             <variables/>
         </processGroups>
     </snippet>
-    <timestamp>01/16/2024 22:28:48 UTC</timestamp>
+    <timestamp>01/16/2024 23:23:42 UTC</timestamp>
 </template>
